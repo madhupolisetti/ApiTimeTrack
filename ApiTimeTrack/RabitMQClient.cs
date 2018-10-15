@@ -34,6 +34,7 @@ namespace ApiTimeTrack
         private SqlConnection _sqlConnection = null;
         private SqlCommand _sqlCommand = null;
         private bool _isSubscriberRunning = false;
+        private int madhuNumber = 0;
 
         public void Initialize()
         {
